@@ -1,0 +1,56 @@
+.layout-topbar .layout-topbar-button{
+    color: #18838e;
+
+}
+.layout-topbar .layout-topbar-button:hover{
+    color: #ffffff;
+    background-color: #e72c47;
+}
+
+
+.layout-topbar .layout-topbar-logo:focus,.layout-topbar .layout-topbar-button:focus {
+    box-shadow:none;
+
+}
+.p-toast.p-toast-top-right {
+    z-index: 1000;
+    top: 7rem;
+}
+.layout-sidebar{
+    border-radius:0;
+    top:5em;
+    height: calc(100vh - 3rem);
+    color:#ffffff;
+    padding-bottom:2em;
+}
+.layout-menuitem-root-text{
+color:#fffbfb;
+}
+.layout-menu li a.router-link-exact-active{
+    font-weight: 300;
+    color:#fffbfb;
+
+}
+.layout-menu li .layout-menuitem-root-text {
+    color:#fffbfb;
+    font-weight: 500;
+}
+.topmenu li a:hover,.layout-menu li a:hover{
+    background-color: #e72c47;
+    color: #ffffff;
+}
+.layout-menu li a:focus{
+    box-shadow:none;
+}
+.layout-menu li a{
+    color:#fffbfb;
+}
+.layout-profile{
+
+}
+.profile-sub-menu{
+display: block;
+}
+a{
+    color:#e72c47;
+}
